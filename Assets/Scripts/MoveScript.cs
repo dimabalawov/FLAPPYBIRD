@@ -9,6 +9,6 @@ public class MoveScript : MonoBehaviour
 
     void Update()
     {
-        this.transform.Translate(maxspeed * Time.deltaTime * Vector3.left);
+        this.transform.Translate(maxspeed * Time.deltaTime * Vector3.left,Space.World);
     }
 }
